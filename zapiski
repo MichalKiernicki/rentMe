@@ -1,0 +1,12 @@
+#spring:
+#  datasource:
+#    url: jdbc:hsqldb:mem:db
+#    username: root
+#    password: root
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+
+ datasource:
+    url: jdbc:hsqldb:hsql://${localhost:3306}:${8081}/database
+    driverClassName: org.hsqldb.jdbc.JDBCDriver
