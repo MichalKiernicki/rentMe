@@ -22,8 +22,7 @@ c. Rezerwacja (okres najmu, wynajmujący, najemca, koszt)
 2. Przy pomocy frameworku Spring-Boot (z wyłączeniem Spring DataREST) stworzyć
 aplikację, która pozwoli przy pomocy web-serwisów REST:
 
-a. Dodać nową rezerwację (nie może być dwóch rezerwacji tego samego oiektu    //TODO
-w tym samym czasie)
+a. Dodać nową rezerwację (nie może być dwóch rezerwacji tego samego oiektuw tym samym czasie) //TODO
 
 b. Zmienić rezerwację   //TODO
 
