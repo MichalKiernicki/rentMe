@@ -13,7 +13,7 @@ public class UserDto {
 
     private Long id;
     private String name;
-    private String surName;
+    private String surname;
     private String role;
 
 

@@ -5,19 +5,17 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.math.BigDecimal;
-
 @Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
 public class ApartamentDto {
 
-    private Long Id;
+    private Long id;
     private String name;
-    private BigDecimal price;
+    private Double price;
     private String surface;
     private String description;
-    private String apartamentStatus;
+    private String apartamentstatus;
 
 }

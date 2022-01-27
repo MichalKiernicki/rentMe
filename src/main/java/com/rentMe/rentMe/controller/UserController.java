@@ -17,8 +17,6 @@ import java.util.List;
 @RequestMapping("/user")
 public class UserController {
 
-    private UserMapper userMapper;
-    private UserRepository userRepository;
     private UserService userService;
 
     @Autowired
@@ -36,8 +34,8 @@ public class UserController {
     public ResponseEntity<Void> addUser(@Valid @RequestBody AddUserRequest request) {
         UserDto userDto = UserDto.builder()
                 .name(request.getName())
-                .surName(request.getSurName())
-//                .role(request.)
+                .surname(request.getSurname())
+                .role(request.getRole())
                 .build();
         userService.addUser(userDto);
         return ResponseEntity.ok().build();

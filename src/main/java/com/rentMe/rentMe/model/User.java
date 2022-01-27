@@ -12,17 +12,15 @@ import javax.persistence.*;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "Users")
 public class User {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
     private Long id;
 
     private String name;
 
-    private String surName;
+    private String surname;
 
     private String role;
 

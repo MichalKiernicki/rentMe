@@ -6,5 +6,6 @@ import lombok.Data;
 public class AddUserRequest {
 
     private String name;
-    private String surName;
+    private String surname;
+    private String role;
 }

@@ -13,22 +13,20 @@ import java.math.BigDecimal;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "Apartaments")
 public class Apartament {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
-    private Long Id;
+    private Long id;
 
     private String name;
 
-    private BigDecimal price;
+    private Double price;
 
     private String surface;
 
     private String description;
 
-    private String apartamentStatus;
+    private String apartamentstatus;
 
 }

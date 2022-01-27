@@ -27,4 +27,5 @@ public class ApartamentService {
         Apartament apartament = apartamentMapper.mapToApartament(apartamentDto);
         apartamentRepository.save(apartament);
     }
+
 }
